@@ -4,7 +4,7 @@ import BlogPost from "@/components/sections/blog-post";
 import { ProfileForm } from "@/components/sections/my-form";
 import Footer from "@/components/sections/Footer";
 
-export default function Home() {
+export default function Blog() {
 
   const heroDescription = "Welcome to the journey of Manuel Yemoh, a Senior Front End developer who specializes in UX/UI and Animation Development. Your go-to destination for insightful discussions, practical tips, and inspiring ideas in the dynamic world of UX/UI design and development!";
 

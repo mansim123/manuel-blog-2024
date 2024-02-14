@@ -6,7 +6,7 @@ export default function Nav() {
     <div className="py-14 bg-secondary border-b w-full">
       <div className="max-w-5xl sm:flex sm:flex-row items-center justify-between px-6 sm:px-0 m-auto">
         <div className="w-full sm:w-1/2">
-          <h1 className="scroll-m-20 text-center sm:text-left text-4xl font-extrabold tracking-tight lg:text-4xl">
+          <h1 className="scroll-m-20 text-center sm:text-left text-3xl font-extrabold tracking-tight lg:text-3xl">
             UX/UI JOURNEY
           </h1>
         </div>

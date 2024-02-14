@@ -3,7 +3,7 @@ import { LinkedInLogoIcon, GitHubLogoIcon, TwitterLogoIcon } from "@radix-ui/rea
 export default function Footer() {
   return (
     <div className="py-14 bg-secondary w-full">
-      <div className="max-w-5xl flex flex-row items-center justify-between px-6 m-auto">
+      <div className="max-w-5xl flex flex-row items-center justify-between m-auto">
         <div className="w-1/2">
           <h1 className="scroll-m-20 text-1xl font-extrabold tracking-tight lg:text-1xl">
             © 2024 Manuel Yemoh
