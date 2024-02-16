@@ -14,7 +14,7 @@ const CoverImage: React.FC<CoverImageProps> = ({
   imageHeight,
 }) => {
   return (
-    <div className="flex flex-col items-center gap-2 px-6 pt-6 pb-24 border-b w-full">
+    <div className="flex flex-col items-center gap-2 pt-0 pb-16 border-b w-full">
       <img
         alt="Manuel Yemoh"
         className="rounded-full object-center object-cover border-2 border-white"

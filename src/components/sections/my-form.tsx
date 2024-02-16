@@ -57,9 +57,6 @@ export function ProfileForm() {
               <FormControl>
                 <Input placeholder="Please enter your name here" {...field} />
               </FormControl>
-              <FormDescription>
-                This is your public display name.
-              </FormDescription>
               <FormMessage />
             </FormItem>
           )}
