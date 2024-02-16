@@ -85,11 +85,11 @@ const LottiePostPage = () => {
           across platforms.
         </p>
         <h2 className="text-left text-2xl md:text-3xl font-bold pt-16 ">
-          How to install with Next.js 13
+          How to install with Next.js
         </h2>
         <p className="pt-4">
           So let&apos;s get into the crux of it, how to install lottie files with
-          Next.js 13, we will go through the steps from start to finish and get
+          Next.js, we will go through the steps from start to finish and get
           you started with your first lottie animations.
         </p>
         <p className="pt-4">
@@ -112,11 +112,11 @@ const LottiePostPage = () => {
           installed
         </p>
         <h3 className="text-left text-2xl md:text-2xl font-bold pt-16 ">
-          Step 1. Install Next.js 13
+          Step 1. Install Next.js
         </h3>
         <p className="pt-4">
           Inside Visual Studio code open up your terminal and type the command
-          below to install Next.js 13
+          below to install Next.js
         </p>
         <CodeBlock>{` npx create-next-app@latest`}</CodeBlock>
         <p className="pt-4">
