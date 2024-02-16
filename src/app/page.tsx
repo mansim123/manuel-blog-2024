@@ -1,13 +1,25 @@
+"use client";
 import Nav from "@/components/sections/Nav";
 import CoverImage from "@/components/sections/cover-image";
 import BlogPost from "@/components/sections/blog-post";
 import { ProfileForm } from "@/components/sections/my-form";
 import Footer from "@/components/sections/Footer";
+import { useRef, useEffect } from "react";
 
 export default function Home() {
+  const blogPostRef = useRef(null);
+
+  const scrollToBlogPost = () => {
+    console.log("hit");
+    blogPostRef.current.scrollIntoView({ behavior: 'smooth' });
+    
+  };
+
+  useEffect(() => {
+    console.log(blogPostRef.current);
+  });
 
   const heroDescription = "Welcome to the journey of Manuel Yemoh, a Senior Front End developer who specializes in UX/UI and Animation Development. Your go-to destination for insightful discussions, practical tips, and inspiring ideas in the dynamic world of UX/UI design and development!";
-
 
   return (
     <main className="flex min-h-screen flex-col items-center">
@@ -15,9 +27,9 @@ export default function Home() {
         <Nav/>
       </div>
       <div className="py-14 px-6 w-full">
-        <CoverImage imageUrl={"manuel.jpg"} description={heroDescription} imageWidth={150} imageHeight={150}/>
+        <CoverImage imageUrl={"/manuel.jpg"} description={heroDescription} imageWidth={150} imageHeight={150} scrollToBlogPost={scrollToBlogPost}/>
       </div>
-      <div className="w-full px-6">
+      <div className="w-full px-6" ref={blogPostRef}>
         <BlogPost/>
       </div>
       <div className="w-full px-6 py-14">

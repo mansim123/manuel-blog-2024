@@ -7,9 +7,6 @@ import Footer from "@/components/sections/Footer";
 import Image from "next/image";
 
 import {
-  LinkedInLogoIcon,
-  TwitterLogoIcon,
-  Share1Icon,
   ClockIcon,
 } from "@radix-ui/react-icons";
 
@@ -43,7 +40,7 @@ const LottiePostPage = () => {
       <div className="z-10 w-full items-center justify-between text-sm lg:flex pb-6">
         <Nav />
       </div>
-      <div className="max-w-5xl">
+      <div className="max-w-5xl px-6 lg:px-0">
         <p className="py-4">Blog post</p>
         <h1 className="text-3xl md:text-3xl xl:text-3xl font-bold tracking-tight pb-2">
           Enhancing Your Next.js Application with Lottie Files: Adding
@@ -52,21 +49,14 @@ const LottiePostPage = () => {
 
         <small>Manuel Yemoh - Feb 16, 2024</small>
 
-        <div className="flex items-center gap-4 py-6">
-          <button className="flex items-center justify-center w-10 h-10 bg-gray-200 dark:bg-gray-800 rounded-full hover:scale-[1.1] transition-all">
-            <LinkedInLogoIcon className="w-5 h-5 text-gray-500 dark:text-gray-400" />
-          </button>
-          <button className="flex items-center justify-center w-10 h-10 bg-gray-200 dark:bg-gray-800 rounded-full hover:scale-[1.1] transition-all">
-            <TwitterLogoIcon className="w-5 h-5 text-gray-500 dark:text-gray-400" />
-          </button>
-          <button className="flex items-center justify-center w-10 h-10 bg-gray-200 dark:bg-gray-800 rounded-full hover:scale-[1.1] transition-all">
-            <Share1Icon className="w-5 h-5 text-gray-500 dark:text-gray-400" />
-          </button>
-        </div>
+       
         <Image
           alt="Cover image"
           className="aspect-video overflow-hidden rounded-lg object-cover mt-6 mb-2"
           src="/lottie-blog-image.webp"
+          width={100}
+          height={100}
+          layout="responsive"
         />
         <div className="flex gap-2 items-center pb-14">
           <ClockIcon className="w-4 h-4" />
@@ -235,7 +225,7 @@ export default function Home() {
         <Lottie options={defaultOptionsSquare} height={400} width={400} />
         <small>Credits: <a className="text-blue-500 underline" href="https://lottiefiles.com/ision_industries" target="_blank">Ision Industries for the Lottie animations</a></small>
       </div>
-      <div className="w-full py-14">
+      <div className="w-full py-14 px-6 lg:px-0">
         <h2 className="text-center text-2xl md:text-3xl font-bold py-6 mx-auto px-6">
           Any questions? Get in touch with me
         </h2>

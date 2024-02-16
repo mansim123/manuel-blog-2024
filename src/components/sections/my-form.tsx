@@ -7,13 +7,14 @@ import { Button } from "@/components/ui/button"
 import {
   Form,
   FormControl,
-  FormDescription,
   FormField,
   FormItem,
   FormLabel,
   FormMessage,
 } from "@/components/ui/form"
 import { Input } from "@/components/ui/input"
+import emailjs from "emailjs-com";
+import { Toaster, toast } from "sonner";
 
 const formSchema = z.object({
   name: z.string().min(2, {
@@ -39,14 +40,34 @@ export function ProfileForm() {
   })
 
   // 2. Define a submit handler.
-  function onSubmit(values: z.infer<typeof formSchema>) {
-    // Do something with the form values.
-    // ✅ This will be type-safe and validated.
-    console.log(values)
+const onSubmit = async (values: z.infer<typeof formSchema>) => {
+  // Do something with the form values.
+  // ✅ This will be type-safe and validated.
+  console.log(values)
+
+  try {
+    const response = await emailjs.send(
+      "service_33kytbq",
+      "template_kgayg89",
+      values,
+      "zL2Uy6M5riyeseeeF"
+    );
+
+    console.log("Email sent successfully:", response);
+    toast("Email successfully sent");
+
+  } catch (error) {
+    console.error("Email sending failed:", error);
+    
+    // Handle error
+    //setSubmissionStatus("error");
   }
+};
+
 
   return (
     <Form {...form}>
+      <Toaster />
       <form onSubmit={form.handleSubmit(onSubmit)} className="space-y-8 max-w-5xl mx-auto pb-14">
         <FormField
           control={form.control}
