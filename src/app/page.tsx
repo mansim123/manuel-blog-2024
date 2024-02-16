@@ -6,6 +6,7 @@ import { ProfileForm } from "@/components/sections/my-form";
 import Footer from "@/components/sections/Footer";
 import { useRef, useEffect } from "react";
 
+
 export default function Home() {
   const blogPostRef = useRef(null);
 
