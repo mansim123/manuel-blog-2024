@@ -97,7 +97,7 @@ const LottiePostPage = () => {
           How to install with Next.js 13
         </h2>
         <p className="pt-4">
-          So let's get into the crux of it, how to install lottie files with
+          So let&apos;s get into the crux of it, how to install lottie files with
           Next.js 13, we will go through the steps from start to finish and get
           you started with your first lottie animations.
         </p>
@@ -145,15 +145,15 @@ const LottiePostPage = () => {
             `}
         </CodeBlock>
         <p className="pt-4">
-          Now, let's navigate to the folder where we'll be working. You can do
-          this by either going to 'File' &#62; 'Open Folder' and selecting the
-          project we're working on, or you can use the following commands to
+          Now, let&apos;s navigate to the folder where we&apos;ll be working. You can do
+          this by either going to &apos;File&apos; &#62; &apos;Open Folder&apos; and selecting the
+          project we&apos;re working on, or you can use the following commands to
           navigate to the folder:
         </p>
         <CodeBlock>{" cd lottie-animation"}</CodeBlock>
-        <p className="pt-4">Now, let's install the npm packages we need</p>
+        <p className="pt-4">Now, let&apos;s install the npm packages we need</p>
         <CodeBlock>{" npm install"}</CodeBlock>
-        {/* <p className="pt-4">Once that's done we will be able to load our test server using the command below and accessing http://localhost:3000/ on our browser.</p>
+        {/* <p className="pt-4">Once that&apos;s done we will be able to load our test server using the command below and accessing http://localhost:3000/ on our browser.</p>
         <CodeBlock
           code={
             "npm run dev"
@@ -163,8 +163,8 @@ const LottiePostPage = () => {
           Step 2. Install Lottie
         </h3>
         <p className="pt-4">
-          You'll need to visit Lottie's website to either download a free Lottie
-          file or purchase a premium one. For this example, I'm using this
+          You&apos;ll need to visit Lottie&apos;s website to either download a free Lottie
+          file or purchase a premium one. For this example, I&apos;m using this
           Lottie file:{" "}
           <a
             className="text-blue-500 underline"
@@ -173,26 +173,26 @@ const LottiePostPage = () => {
           >
             Download here
           </a>
-          . (P.S. Don't forget to credit the author if you use a free Lottie
+          . (P.S. Don&apos;t forget to credit the author if you use a free Lottie
           file.){" "}
         </p>
         <p className="pt-4">Once you have the file, we will need to:</p>
         <ol className="list-decimal pl-8 py-6">
           <li className="mb-2">
-            Go to your project's folder structure and create a folder named
-            "json" inside the "src" directory. This is where your Lottie file
+            Go to your project&apos;s folder structure and create a folder named
+            &quot;json&quot; inside the &quot;src&quot; directory. This is where your Lottie file
             will reside.
           </li>
           <li className="mb-2">
-            Rename the Lottie file to "Lottie-animation-cube.json".
+            Rename the Lottie file to &quot;Lottie-animation-cube.json&quot;.
           </li>
         </ol>
         <p className="pt-4">
-          Okay let's get Lottie installed in our application
+          Okay let&apos;s get Lottie installed in our application
         </p>
         <CodeBlock>{" npm i react-lottie"}</CodeBlock>
         <p className="pt-4">
-          Now let's get to coding, we only need to change 1 file which will be
+          Now let&apos;s get to coding, we only need to change 1 file which will be
           the page.tsx file to import Lottie and also start our first animation
         </p>
         <CodeBlock>
@@ -222,7 +222,7 @@ export default function Home() {
         `}
         </CodeBlock>
         <h3 className="text-left text-2xl md:text-2xl font-bold pt-16 ">
-          Step 3. Let's run the application
+          Step 3. Let&apos;s run the application
         </h3>
         <p className="pt-4">
           If all went well we can now run the command to start the server
