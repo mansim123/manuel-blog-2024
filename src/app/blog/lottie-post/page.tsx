@@ -74,7 +74,7 @@ const LottiePostPage = () => {
           developers a powerful toolset to incorporate vibrant animations
           seamlessly.
         </p>
-        <Lottie options={defaultOptions} height={400} width={400} />
+        <Lottie options={defaultOptions} height={300} width={300} />
         <p className="pt-4">
           Leveraging the lightweight and versatile JSON-based format, Lottie
           files encapsulate complex animations created in popular design tools
@@ -222,7 +222,7 @@ export default function Home() {
         <p className="pt-4">
          Success you have now implimented your first Lottie animation! for more properties please visit the NPM documentation location <a className="text-blue-500 underline" href="https://www.npmjs.com/package/react-lottie" target="_blank">here</a>
         </p>
-        <Lottie options={defaultOptionsSquare} height={400} width={400} />
+        <Lottie options={defaultOptionsSquare} height={300} width={300} />
         <small>Credits: <a className="text-blue-500 underline" href="https://lottiefiles.com/ision_industries" target="_blank">Ision Industries for the Lottie animations</a></small>
       </div>
       <div className="w-full py-14 px-6 lg:px-0">
