@@ -6,7 +6,6 @@ interface CoverImageProps {
   description: string;
   imageWidth: number;
   imageHeight: number;
-  scrollToBlogPost: () => void; // Change the type to a function that takes no arguments and returns void
 }
 
 const CoverImage: React.FC<CoverImageProps> = ({
@@ -14,10 +13,9 @@ const CoverImage: React.FC<CoverImageProps> = ({
   description,
   imageWidth,
   imageHeight,
-  scrollToBlogPost,
 }) => {
   return (
-    <div className="flex flex-col items-center gap-2 pt-0 pb-16 border-b w-full">
+    <div className="flex flex-col items-center gap-2 pt-0 pb-0 w-full">
       <Image
         alt="Manuel Yemoh"
         className="rounded-full object-center object-cover border-2 border-white"
@@ -32,7 +30,6 @@ const CoverImage: React.FC<CoverImageProps> = ({
       <p className="text-center max-w-lg text-sm tracking-wide/relaxed sm:text-base dark:text-gray-400 py-6">
         {description}
       </p>
-      <Button onClick={scrollToBlogPost}>See more</Button> {/* Call the function */}
     </div>
   );
 };

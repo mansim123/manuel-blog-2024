@@ -5,7 +5,7 @@ import BlogPost from "@/components/sections/blog-post";
 import { ProfileForm } from "@/components/sections/my-form";
 import Footer from "@/components/sections/Footer";
 import { useRef, useEffect } from "react";
-
+import { Button } from "@/components/ui/button";
 
 export default function Home() {
   const blogPostRef = useRef(null);
@@ -13,12 +13,11 @@ export default function Home() {
   const scrollToBlogPost = () => {
     console.log("hit");
     blogPostRef.current.scrollIntoView({ behavior: 'smooth' });
-    
   };
 
   useEffect(() => {
-    console.log(blogPostRef.current);
-  });
+    // Any effect-specific logic can go here, but defining scrollToBlogPost inside useEffect isn't necessary
+  }, []);
 
   const heroDescription = "Welcome to the journey of Manuel Yemoh, a Senior Front End developer who specializes in UX/UI and Animation Development. Your go-to destination for insightful discussions, practical tips, and inspiring ideas in the dynamic world of UX/UI design and development!";
 
@@ -27,8 +26,11 @@ export default function Home() {
       <div className="z-10 w-full items-center justify-between text-sm lg:flex">
         <Nav/>
       </div>
-      <div className="py-14 px-6 w-full">
-        <CoverImage imageUrl={"/manuel.jpg"} description={heroDescription} imageWidth={150} imageHeight={150} scrollToBlogPost={scrollToBlogPost}/>
+      <div className="py-14 px-6 pb-16 w-full">
+        <CoverImage imageUrl={"/manuel.jpg"} description={heroDescription} imageWidth={150} imageHeight={150}/>
+        <div className="flex justify-center">
+          <Button onClick={scrollToBlogPost}>See more</Button>
+        </div>
       </div>
       <div className="w-full px-6" ref={blogPostRef}>
         <BlogPost/>
