@@ -1,4 +1,5 @@
 import { Button } from "../ui/button";
+import Image from "next/image";
 
 interface CoverImageProps {
   imageUrl: string;
@@ -15,7 +16,7 @@ const CoverImage: React.FC<CoverImageProps> = ({
 }) => {
   return (
     <div className="flex flex-col items-center gap-2 pt-0 pb-16 border-b w-full">
-      <img
+      <Image
         alt="Manuel Yemoh"
         className="rounded-full object-center object-cover border-2 border-white"
         src={imageUrl}

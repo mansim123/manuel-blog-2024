@@ -1,8 +1,8 @@
-import Nav from "@/components/sections/nav";
-import CoverImage from "@/components/sections/cover-image";
+import Nav from "@/components/sections/Nav";
+import CoverImage from "@/components/sections/Cover-image";
 import BlogPost from "@/components/sections/blog-post";
 import { ProfileForm } from "@/components/sections/my-form";
-import Footer from "@/components/sections/footer";
+import Footer from "@/components/sections/Footer";
 
 export default function Blog() {
 

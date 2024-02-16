@@ -1,9 +1,10 @@
 "use client";
 
 import React from "react";
-import Nav from "@/components/sections/nav";
+import Nav from "@/components/sections/Nav";
 import { ProfileForm } from "@/components/sections/my-form";
-import Footer from "@/components/sections/footer";
+import Footer from "@/components/sections/Footer";
+import Image from "next/image";
 
 import {
   LinkedInLogoIcon,
@@ -62,7 +63,7 @@ const LottiePostPage = () => {
             <Share1Icon className="w-5 h-5 text-gray-500 dark:text-gray-400" />
           </button>
         </div>
-        <img
+        <Image
           alt="Cover image"
           className="aspect-video overflow-hidden rounded-lg object-cover mt-6 mb-2"
           src="/lottie-blog-image.webp"

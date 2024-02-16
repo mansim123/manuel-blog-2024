@@ -1,6 +1,7 @@
 'use client';
 import React from "react";
 import { Button } from "../ui/button";
+import Image from "next/image";
 
 import {
   LinkedInLogoIcon,
@@ -40,7 +41,7 @@ const BlogPost: React.FC = () => {
           </h1>
         </div>
         <a href="/blog/lottie-post">
-          <img
+          <Image
             alt="Cover image"
             className="aspect-video overflow-hidden rounded-lg object-cover my-6"
             height={320}
