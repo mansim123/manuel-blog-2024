@@ -5,7 +5,7 @@ import Image from "next/image";
 const BlogPost: React.FC = () => {
   const blogPosts = [
     {
-      blogData: "13 February 2024 - Blog",
+      blogData: "16 February 2024 - Blog",
       blogTitle:
         "Enhancing Your Next.js Application with Lottie Files: Adding Eye-catching Animations Without Sacrificing Performance",
       blogURL: "/blog/lottie-post",
