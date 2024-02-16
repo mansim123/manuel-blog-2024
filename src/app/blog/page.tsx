@@ -1,5 +1,5 @@
 import Nav from "@/components/sections/Nav";
-import CoverImage from "@/components/sections/Cover-image";
+import CoverImage from "@/components/sections/cover-image";
 import BlogPost from "@/components/sections/blog-post";
 import { ProfileForm } from "@/components/sections/my-form";
 import Footer from "@/components/sections/Footer";
