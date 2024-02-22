@@ -14,7 +14,7 @@ const CodeBlock: React.FC<CodeBlockProps> = ({ children }) => {
 
   return (
     <div className="flex items-center py-6">
-      <code className="resize-none flex-grow mr-4 bg-secondary p-2 rounded">
+      <code className="resize-none text-[0.9rem] flex-grow mr-4 bg-secondary p-2 rounded">
         <pre
           style={{
             whiteSpace: "pre-wrap",

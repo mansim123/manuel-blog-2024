@@ -5,12 +5,20 @@ import Image from "next/image";
 const BlogPost: React.FC = () => {
   const blogPosts = [
     {
+      blogData: "22 February 2024 - Blog",
+      blogTitle:
+        "Shadcn and Next.js: Tailoring UI Components to Your Project's Needs",
+      blogURL: "/blog/shadcn-post",
+      blogImage: "/shadcn-blog-image.webp",
+    },
+    {
       blogData: "16 February 2024 - Blog",
       blogTitle:
         "Enhancing Your Next.js Application with Lottie Files: Adding Eye-catching Animations Without Sacrificing Performance",
       blogURL: "/blog/lottie-post",
       blogImage: "/lottie-blog-image.webp",
     },
+    
   ];
 
   // Map function to create blog post components
