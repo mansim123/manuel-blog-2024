@@ -335,7 +335,7 @@ export default function Home() {
         
           `}</CodeBlock>
         <p className="pt-4">
-          Upon inspecting your folder structure, you&apos;ll notice the addition of a "ui" folder, with "button.tsx" now present. This indicates the successful installation of that particular component.
+          Upon inspecting your folder structure, you&apos;ll notice the addition of a &quot;ui&quot; folder, with &quot;button.tsx&quot; now present. This indicates the successful installation of that particular component.
         </p>
         <h3 className="text-left text-2xl md:text-2xl font-bold pt-16 ">
           Step 4. Let&apos;s run the application
