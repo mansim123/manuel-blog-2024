@@ -53,7 +53,7 @@ const LottiePostPage = () => {
       <div className="max-w-5xl px-6 lg:px-0">
         <p className="py-4">Blog post</p>
         <h1 className="text-3xl md:text-3xl xl:text-3xl font-bold tracking-tight pb-2">
-          Shadcn and Next.js: Tailoring UI Components to Your Project's Needs
+          Shadcn and Next.js: Tailoring UI Components to Your Project&apos;s Needs
         </h1>
 
         <small>Manuel Yemoh - Feb 22, 2024</small>
@@ -71,8 +71,8 @@ const LottiePostPage = () => {
           <small className="relative top-[1px]">20 Minutes read</small>
         </div>
         <p>
-          In the past, I've utilized various component libraries, including MUI,
-          Chakra UI, Bootstrap, Next UI, and Tailwind UI. While I've
+          In the past, I&apos;ve utilized various component libraries, including MUI,
+          Chakra UI, Bootstrap, Next UI, and Tailwind UI. While I&apos;ve
           consistently found them to be reliable and easy to use, one
           significant drawback has always nagged at me: limited customization
           options and unnecessary bloat from downloading entire packages with
@@ -93,15 +93,15 @@ const LottiePostPage = () => {
           , an open-source component library that has truly transformed my
           approach to working with components.
         </p>
-        <p className="pt-4 italic">So, what's all the hype about?</p>
+        <p className="pt-4 italic">So, what&apos;s all the hype about?</p>
         <p className="pt-4">
-          For me, it's the ability to install only what you need and enjoy full
+          For me, it&apos;s the ability to install only what you need and enjoy full
           customization capabilities.
         </p>
         <p className="pt-4">
           Imagine needing just a button. No problem – install the button
-          component, and you're all set! Need to customize the button? Dive into
-          the UI folder, locate the button, and tweak it to your heart's
+          component, and you&apos;re all set! Need to customize the button? Dive into
+          the UI folder, locate the button, and tweak it to your heart&apos;s
           content.
         </p>
         <p className="pt-4">
@@ -228,7 +228,7 @@ import {
         </CodeBlock>
 
         <p className="pt-4">
-          I'm now going to take you through the steps to getting Shadcn
+          I&apos;m now going to take you through the steps to getting Shadcn
           installed with Next.js.
         </p>
 
@@ -335,7 +335,7 @@ export default function Home() {
         
           `}</CodeBlock>
         <p className="pt-4">
-          Upon inspecting your folder structure, you'll notice the addition of a "ui" folder, with "button.tsx" now present. This indicates the successful installation of that particular component.
+          Upon inspecting your folder structure, you&apos;ll notice the addition of a "ui" folder, with "button.tsx" now present. This indicates the successful installation of that particular component.
         </p>
         <h3 className="text-left text-2xl md:text-2xl font-bold pt-16 ">
           Step 4. Let&apos;s run the application
