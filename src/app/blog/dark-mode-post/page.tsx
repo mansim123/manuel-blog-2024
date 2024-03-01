@@ -211,7 +211,7 @@ Do you want to use CSS variables for colors? ›  yes
         </h3>
         <p className="pt-4">We are now going to set up dark mode themes</p>
         <CodeBlock>{" npm install next-themes"}</CodeBlock>
-        <p className="pt-4">Let's install all the dependancies</p>
+        <p className="pt-4">Let&apos;s install all the dependancies</p>
         <CodeBlock>{` npx shadcn-ui@latest add dropdown-menu && npx shadcn-ui@latest add button && npm i @radix-ui/react-icons`}</CodeBlock>
         <p className="pt-4">
           We are now going to create a theme provider document add it here:{" "}
@@ -230,7 +230,7 @@ export function ThemeProvider({ children, ...props }: ThemeProviderProps) {
         
           `}</CodeBlock>
         <p className="pt-4">
-          Once that's done we need to wrap the ThemeProvider to our root layout,
+          Once that&apos;s done we need to wrap the ThemeProvider to our root layout,
           add it here: <b>app/layout.tsx</b>
         </p>
         <CodeBlock>{`
@@ -258,7 +258,7 @@ export default function RootLayout({ children }: RootLayoutProps) {
         
           `}</CodeBlock>
         <p className="pt-4">
-          Next let's create a toggle component I put the file here:{" "}
+          Next let&apos;s create a toggle component I put the file here:{" "}
           <b>components/ui/toggle-mode.tsx</b>
         </p>
         <CodeBlock>{`
