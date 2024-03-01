@@ -5,6 +5,13 @@ import Image from "next/image";
 const BlogPost: React.FC = () => {
   const blogPosts = [
     {
+      blogData: "01 March 2024 - Blog",
+      blogTitle:
+        "Enhancing UX/UI and Accessibility: Embracing Dark Mode on Your Website",
+      blogURL: "/blog/dark-mode-post",
+      blogImage: "/dark-mode-blog-image.webp",
+    },
+    {
       blogData: "22 February 2024 - Blog",
       blogTitle:
         "Shadcn and Next.js: Tailoring UI Components to Your Project's Needs",
