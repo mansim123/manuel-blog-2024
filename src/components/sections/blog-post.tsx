@@ -5,6 +5,13 @@ import Image from "next/image";
 const BlogPost: React.FC = () => {
   const blogPosts = [
     {
+      blogData: "15 March 2024 - Blog",
+      blogTitle:
+        "Elevate Your Web Design: Unleashing GSAP ScrollTrigger for Dynamic Animations",
+      blogURL: "/blog/gsap-post",
+      blogImage: "/gsap-blog-image.webp",
+    },
+    {
       blogData: "01 March 2024 - Blog",
       blogTitle:
         "Enhancing UX/UI and Accessibility: Embracing Dark Mode on Your Website",
