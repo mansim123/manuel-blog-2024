@@ -96,7 +96,7 @@ const LottiePostPage = () => {
           <small className="relative top-[1px]">20 Minutes read</small>
         </div>
         <p>
-          In today's digital landscape, captivating user experiences are
+          In today&apos;s digital landscape, captivating user experiences are
           paramount. Websites no longer serve as mere repositories of
           information; they are dynamic platforms that engage and interact with
           users on a deeper level. One of the most effective ways to achieve
@@ -116,12 +116,12 @@ const LottiePostPage = () => {
         </p>
         <p className="pt-4">
           But why should you consider incorporating GSAP ScrollTrigger into your
-          web design arsenal? Let's delve into the myriad benefits it offers:
+          web design arsenal? Let&apos;s delve into the myriad benefits it offers:
         </p>
         <ol className="list-decimal pl-8 py-6">
           <li className="mb-2">
             <b>Enhance User Engagement:</b> Animations have the remarkable
-            ability to guide users' attention and create memorable interactions.
+            ability to guide users&apos; attention and create memorable interactions.
             With GSAP ScrollTrigger, you can seamlessly integrate animations
             that respond to user scrolling, providing a dynamic and engaging
             browsing experience.
@@ -143,15 +143,15 @@ const LottiePostPage = () => {
           <li className="mb-2">
             <b>Foster Creativity: </b> GSAP ScrollTrigger empowers developers to
             unleash their creativity and push the boundaries of web animation.
-            Whether you're designing interactive parallax effects, scroll-based
+            Whether you&apos;re designing interactive parallax effects, scroll-based
             transitions, or immersive storytelling elements, GSAP ScrollTrigger
             provides the tools you need to bring your vision to life.
           </li>
           <li className="mb-2">
             <b>Enhance Brand Identity: </b> Animations play a vital role in
-            shaping your brand's identity and personality online. By
+            shaping your brand&apos;s identity and personality online. By
             incorporating GSAP ScrollTrigger into your website, you can create
-            animations that reflect your brand's aesthetic, values, and unique
+            animations that reflect your brand&apos;s aesthetic, values, and unique
             selling propositions, helping you stand out in a crowded digital
             landscape.
           </li>
@@ -244,7 +244,7 @@ npm install gsap
             `}
         </CodeBlock>
         <p className="pt-4">
-          Next, we'll import GSAP and ScrollTrigger and register them in our
+          Next, we&apos;ll import GSAP and ScrollTrigger and register them in our
           document and add our first animation, you can replace your page.tsx
           inside your app folder with the below
         </p>
@@ -295,11 +295,11 @@ export default function Home() {
           className="w-40 h-40 pt-12 bg-secondary text-center"
           ref={animateRef}
         >
-          Hello I'm your first scroll trigger animation
+          Hello I&apos;m your first scroll trigger animation
         </div>
         <br></br>
         <p className="pt-0">
-          Great news! You've successfully implemented your GSAP ScrollTrigger
+          Great news! You&apos;ve successfully implemented your GSAP ScrollTrigger
           animation. It should smoothly transition to full opacity as you
           scroll. For further information on ScrollTrigger, please refer to the
           documentation available{" "}{" "}
